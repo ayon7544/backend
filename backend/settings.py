@@ -46,8 +46,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "https://frontend-ayon7544s-projects.vercel.app/",
+    "https://frontend-ayon7544s-projects.vercel.app",
 ]
+
 
 CORS_ALLOW_CREDENTIALS = True
 
