@@ -46,8 +46,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://frontend-ayon7544s-projects.vercel.app/",
 ]
+
+CORS_ALLOW_CREDENTIALS = True
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
