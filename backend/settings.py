@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-7#1(2qwpvrkj1&@%ht@9hqjachyok8yr&u$h2nn-94z!5zu%2c
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "backend-autf.onrender.com"
+    "backend-autf.onrender.com",
+    "frontend-ayon7544s-projects.vercel.app",
 ]
 
 
@@ -90,8 +91,12 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'database1_x2du',
+        'USER': 'database1_x2du_user',
+        'PASSWORD': 'T1Y1trzWFUiUnxjL9EwQJebfBz97lL5q',
+        'HOST': 'dpg-cv54p8nnoe9s73edpf9g-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
 
